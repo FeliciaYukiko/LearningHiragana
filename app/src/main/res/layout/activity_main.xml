@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/l1"
+                android:layout_width="138dp"
+                android:layout_height="77dp"
+                android:layout_margin="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/lesson_1" />
+
+            <Button
+                android:id="@+id/l2"
+                android:layout_width="138dp"
+                android:layout_height="77dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/lesson_2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/l3"
+                android:layout_width="138dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/lesson_3" />
+
+            <Button
+                android:id="@+id/l4"
+                android:layout_width="138dp"
+                android:layout_height="77dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="14dp"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/lesson_4" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/l5"
+                android:layout_width="138dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/lesson_5" />
+
+            <Button
+                android:id="@+id/l6"
+                android:layout_width="138dp"
+                android:layout_height="77dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/lesson_6" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

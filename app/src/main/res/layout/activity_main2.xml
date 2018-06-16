@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Lesson 1"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/aiueo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/aiueo"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/kakikukeko"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/kakikukeko"
+                android:textSize="30sp"
+                tools:background="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/sashisuseso"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/sashisuseso"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/tachitsuteto"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/tachitsuteto"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/naninuneno"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/naninuneno"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/hahifuheho"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/hahifuheho"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/mamimumemo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/mamimumemo"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/yayuyo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/yayuyo"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/rarirurero"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/rarirurero"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/waon"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/waon"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/home"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

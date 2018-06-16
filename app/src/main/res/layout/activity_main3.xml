@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Lesson 2"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/gagigugego"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/gagigugego"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/zajizuzezo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/zajizuzezo"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/dajizudedo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/dajizudedo"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/babibubebo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/babibubebo"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/papipupepo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/papipupepo"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/kyakyukyo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/kyakyukyo"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/gyagyugyo"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/gyagyugyo"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/home"
+                android:layout_marginStart="140dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
